@@ -13,7 +13,7 @@ programa {
     escreva ("Nota de 4º bimestre: ")
     leia (valorD)
 
-    escreva ("Média do bimestre: ", ((valorA + valorB + valorC + valorD)/4))
+    escreva ("Média final: ", ((valorA + valorB + valorC + valorD)/4))
 
   }
 }
