@@ -1,19 +1,19 @@
 programa {
   funcao inicio() {
-    //Declaração da variável
-    real valorA, valorB, valorC, valorD
+    //DeclaraÃ§Ã£o da variÃ¡vel
+    real valorA, valorB, valorC, valorD,
 
-    //Atribuição
-    escreva ("Nota de Humanas: ")
+    //AtribuiÃ§Ã£o
+    escreva ("Nota do 1Âº bimestre: ")
     leia (valorA)
-    escreva ("Nota de Matemática: ")
+    escreva ("Nota de 2Âº bimestre: ")
     leia (valorB)
-    escreva ("Nota de Linguagens: ")
+    escreva ("Nota de 3Âº bimestre: ")
     leia (valorC)
-    escreva ("Nota de Natureza: ")
+    escreva ("Nota de 4Âº bimestre: ")
     leia (valorD)
 
-    escreva ("Média do bimestre: ", ((valorA + valorB + valorC + valorD)/4))
+    escreva ("MÃ©dia do bimestre: ", ((valorA + valorB + valorC + valorD)/4))
 
   }
 }
