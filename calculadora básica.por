@@ -4,12 +4,13 @@ programa {
     real num1, num2, resultado
 
     faca{
-    escreva("\n\n[Calculadora das operações báscias]\n")
+    escreva("\n\n[Calculadora das operaÃ§Ãµes bÃ¡scias]\n")
     escreva("-menu de escolhas-\n")
       escreva("1. Soma\n")
-      escreva("2. Subtração\n")
-      escreva("3. Multiplicação\n")
-      escreva("4. Divisão\n")
+      escreva("2. SubtraÃ§Ã£o\n")
+      escreva("3. MultiplicaÃ§Ã£o\n")
+      escreva("4. DivisÃ£o\n")
+      escreva("5. Sair\n)
       escreva("| DIGITE SUA ESCOLHA: ")
       leia(opcao)
       
@@ -29,7 +30,7 @@ programa {
          escreva("Digite o segundo valor: ")
          leia(num2)
          resultado = num1 - num2
-         escreva("A subtração dos valores: ", resultado)
+         escreva("A subtraÃ§Ã£o dos valores: ", resultado)
          pare
 
         caso 3:
@@ -38,7 +39,7 @@ programa {
          escreva("Digite o segundo valor: ")
          leia(num2)
          resultado = num1 * num2
-         escreva("A multiplicação dos valores: ", resultado)
+         escreva("A multiplicaÃ§Ã£o dos valores: ", resultado)
          pare
 
          caso 4:
@@ -47,11 +48,14 @@ programa {
          escreva("Digite o segundo valor: ")
          leia(num2)
          resultado = num1 / num2
-         escreva("A divisão dos valores: ", resultado)
+         escreva("A divisÃ£o dos valores: ", resultado)
          pare
-         
+
+         caso 5:
+          escreva("\n VocÃª saiu do menu. AtÃ© mais!!!")
+
          caso contrario: 
-         escreva("você escolheu uma opção inválida... Tente novamente\n")
+         escreva("vocÃª escolheu uma opÃ§Ã£o invÃ¡lida... Tente novamente mais tarde\n")
     }
   }enquanto(opcao !=5)
   }
